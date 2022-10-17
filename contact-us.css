@@ -132,6 +132,7 @@ nav>.button{
     margin-left: 320px;
 }
 .help-section>.heading{
+    width: 735px;
     font-weight: 600;
     font-size: 36px;
     letter-spacing: -0.03em;
@@ -155,4 +156,125 @@ nav>.button{
 .card-link{
     color: #F58A07;
     margin-top: 24px;
+}
+.features-section{
+    margin-top: 97px;
+    height: 665px;
+    background-color: #EDF7FF;
+
+}
+.features-section-text{
+    display: flex;
+    gap: 40px;
+}
+.features-section-heading{
+    margin-top: 96px;
+    width: 619px;
+    margin-left: 321px;
+    font-weight: 600;
+    font-size: 36px;
+    color: #0D1317;
+}
+.features-section-heading>p{
+    margin: 0;
+}
+.features-section-paragraph{
+    margin-top: 102px;
+    width: 620px;
+    font-weight: 500;
+    color: #1D3444;
+    font-size: 18px;
+}
+.features-section-paragraph>p{
+    margin: 0;
+}
+.features-section_features{
+    display: flex;
+    margin-left: 320px;
+    margin-top: 64px;
+    gap: 38px;
+}
+.feature{
+    width: 401px;
+    background-color: #fff;
+}
+.feature>img{
+    margin-top: 50px;
+    margin-left: 38px;
+    margin-bottom: 32px;
+}
+.feature>p{
+    margin-top: 0;
+    margin-bottom: 16px;
+    margin-left: 39px;
+}
+.about-section{
+    height: 667px;
+    width: 1280px;
+    margin-left: 320px;
+    display: flex;
+}
+.about-text{
+    width: 596px;
+    margin-top: 166px;
+}
+
+.about-section-heading>h3{
+    font-weight: 600px;
+    font-size: 48px;
+    color: #0D1317;
+    margin-top: 0;
+}
+.about-section-heading>p{
+    width: 510px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #5B5B5B;
+
+}
+.about-section-feature{
+    display: flex;
+    width: 596px;
+}
+.about-section-feature-logo{
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #F58A07;
+}
+.about-section-feature-heading{
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+.about-section-feature-pharagraph{
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.about-image{
+    margin-top: 96px;
+    margin-left: 47px;
+    left: 963px;
+    bottom: 0;
+}
+.about-image>img{
+    border-radius: 20px;
+}
+.about-image-bar{
+    position: absolute;
+    left: 0;
+    height: 670px;
+    width: 153px;
+    color: rgba(245, 138, 7, 1);
+    z-index: 4;
+
 }
