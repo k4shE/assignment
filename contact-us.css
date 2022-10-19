@@ -1,44 +1,21 @@
-*{
-    box-sizing: border-box;
+nav{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
-
-body{
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-}
-
-ul, li{
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-
-a{
-    color: inherit;
-    text-decoration: none;
-}
-
-.container{
-    width: 1280px;
-    margin: 0 auto;
-    margin-left: 320px;
-    margin-right: 320px;
-}
-
-.container-table{
+.navigation-table{
     display: flex;
     justify-content: space-between;
 }
 
-.logo{
+.navigation-logo{
     margin-top: 28px;
 }
 
-nav{
+.navigation-link{
     display: flex;
 }
-.nav{
+.navigation-link-body{
     margin-top: 30px;
     display: flex;
     width: 437px;
@@ -46,7 +23,7 @@ nav{
     gap: 32px;
 
 }
-nav>.button{
+.navigation-button{
     width: 173px;
     height: 52px;
     border-radius: 31px;
@@ -64,10 +41,7 @@ nav>.button{
     position: relative;
     display: flex;
 }
-.header-left{
-    width: 576px;
-    margin-left: 325px;
-}
+
 .header-left>h1{
     margin: 0;
     padding-top: 117px;
@@ -78,7 +52,7 @@ nav>.button{
     letter-spacing: -0.03em;
     text-align: left;
 }
-.header>.header-left>.buttons>.button{
+.header>.container>.header-left>.buttons>.button-left{
     color: #fff;
     font-weight: 600;
     width: 199px;
@@ -89,7 +63,7 @@ nav>.button{
     line-height: 54px;
 
 }
-.header>.header-left>.buttons>.button-1{
+.header>.container>.header-left>.buttons>.button-right{
 
     font-weight: 600;
     width: 199px;
@@ -118,27 +92,33 @@ nav>.button{
 .header-right{
     position: absolute;
     right: 218px;
-    bottom: 0;
+    bottom: -6.5px;
 }
 .header-bottom-logos{
     margin-top: 18px;
     gap: 45px;
 }
 .help-section{
-    width: 1280px;
     height: 740px;
     margin: 0 auto;
     margin-top: 83px;
-    margin-left: 320px;
+
 }
-.help-section>.heading{
-    width: 735px;
+.help-section>.container>.heading-biy>.heading-text>.heading{
     font-weight: 600;
     font-size: 36px;
     letter-spacing: -0.03em;
 }
-.help-section>.text-top{
-    width:735px;
+.heading-biy{
+    display: flex;
+}
+.box{
+    padding: 150px 250px;
+}
+.help-section>.container>.heading-biy>.heading-text>.text-top{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
 }
 .card-body{
     display: flex;
@@ -170,7 +150,6 @@ nav>.button{
 .features-section-heading{
     margin-top: 96px;
     width: 619px;
-    margin-left: 321px;
     font-weight: 600;
     font-size: 36px;
     color: #0D1317;
@@ -190,13 +169,13 @@ nav>.button{
 }
 .features-section_features{
     display: flex;
-    margin-left: 320px;
     margin-top: 64px;
     gap: 38px;
 }
 .feature{
     width: 401px;
     background-color: #fff;
+    border-radius: 20px;
 }
 .feature>img{
     margin-top: 50px;
@@ -208,15 +187,21 @@ nav>.button{
     margin-bottom: 16px;
     margin-left: 39px;
 }
+
+
+
 .about-section{
     height: 667px;
-    width: 1280px;
-    margin-left: 320px;
+    margin-top: 96px;
+    background-color: #fff;
+}
+.about-section>.container{
     display: flex;
+    justify-content: space-around;
 }
 .about-text{
     width: 596px;
-    margin-top: 166px;
+
 }
 
 .about-section-heading>h3{
@@ -224,6 +209,7 @@ nav>.button{
     font-size: 48px;
     color: #0D1317;
     margin-top: 0;
+    letter-spacing: -0.03em;
 }
 .about-section-heading>p{
     width: 510px;
@@ -261,9 +247,7 @@ nav>.button{
     text-align: left;
 }
 .about-image{
-    margin-top: 96px;
-    margin-left: 47px;
-    left: 963px;
+    position: relative;
     bottom: 0;
 }
 .about-image>img{
@@ -272,9 +256,137 @@ nav>.button{
 .about-image-bar{
     position: absolute;
     left: 0;
-    height: 670px;
+    height: 667px;
     width: 153px;
-    color: rgba(245, 138, 7, 1);
+    background-color: rgba(245, 138, 7, 1);
+    mix-blend-mode: multiply;
+    border-radius: 20px 0 0 20px;
     z-index: 4;
+    bottom: 6px;
+    
+}
+.service-section>.container{
+    margin-top: 85px;
+    height: 682px;
+    background-color: #EDF7FF;
+    position: relative;
+    border-radius: 20px;
 
 }
+.ribbon{
+    position: absolute;
+    right: -20.61px;
+    top: -20px;
+}
+.service-container{
+    position: relative;
+}
+.service-tab>ul{
+    display: flex;
+    justify-content: start;
+    gap: 24px;
+    padding-top: 48px;
+    padding-left: 48px;
+}
+.tab-left{
+    color: #F58A07;
+
+    padding: 8px 24px;
+    background-color: #FFF;
+    border-radius: 31px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.tab-right{
+    padding: 8px 24px;
+    border: 1px solid #A8BCCC;
+    border-radius: 31px;
+    color: rgba(6, 50, 85, 0.3);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+.service-section{
+    padding-bottom: 128px;
+}
+.service-text{
+    padding-left: 48px;
+    padding-top: 80px;
+
+}
+.service-text>h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    margin-top: 0;
+}
+.service-text>p{
+
+    color: rgba(91, 91, 91, 1);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+.service-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color:#F58A07;
+    padding-left: 48px;
+    padding-top: 40px;
+}
+.service-body{
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+}
+.service-right{
+    position: relative;
+    padding-right: 42.39px;
+    padding-top: 80px;
+
+}
+.service-image-bar{
+    position: absolute;
+    height: 466px;
+    width: 120px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px 0px 0px 20px;
+    bottom: 6px;
+}
+.CTA-body{
+    background-color: rgba(245, 138, 7, 1);
+    margin: 0;
+    display: flex;
+    height: 518px;
+    align-items: stretch;
+}
+.CTA-left img{
+
+}
+.CTA-right{
+    padding: 128px 300px 222px 128px;
+}
+
+.CTA-heading{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #fff;
+    letter-spacing: -0.03em;
+}
+.CTA-button{
+    display: inline-block;
+    padding: 19px 32px 18px 32px;
+    background-color: #fff;
+    border-radius: 31px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    text-transform: capitalize;
+    color: #F58A07;
+}   
