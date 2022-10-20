@@ -36,6 +36,9 @@ h2{
 }
 p{
     color: #5B5B5B;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
 }
 h3{
     font-weight: 500;

@@ -9,39 +9,36 @@ nav{
 }
 
 .navigation-logo{
-    margin-top: 28px;
+    padding-top: 28px;
 }
 
 .navigation-link{
     display: flex;
+    gap: 47px;
 }
 .navigation-link-body{
-    margin-top: 30px;
+    padding-top: 30px;
     display: flex;
-    width: 437px;
-    height: 24px;
     gap: 32px;
 
 }
 .navigation-button{
-    width: 173px;
-    height: 52px;
+    padding: 18px 30px 17px 29px;
     border-radius: 31px;
     text-align: center;
-    line-height: 52px;
     margin-top: 16px;
     font-weight: 600;
     color: #f58a07;
     background: #F58A071A;
 }
 .header{
-    margin-top: 0;
-    height: 703px;
     background-color: #DCEAF5;
-    position: relative;
+
     display: flex;
 }
-
+.header>.container{
+    display: flex;
+}
 .header-left>h1{
     margin: 0;
     padding-top: 117px;
@@ -52,7 +49,7 @@ nav{
     letter-spacing: -0.03em;
     text-align: left;
 }
-.header>.container>.header-left>.buttons>.button-left{
+.header-left>.buttons>.button-left{
     color: #fff;
     font-weight: 600;
     width: 199px;
@@ -61,10 +58,8 @@ nav{
     border-radius: 27px;
     text-align: center;
     line-height: 54px;
-
 }
-.header>.container>.header-left>.buttons>.button-right{
-
+.header-left>.buttons>.button-right{
     font-weight: 600;
     width: 199px;
     height: 54px;
@@ -78,31 +73,23 @@ nav{
     
 }
 .text-top{
-    margin-top: 12px;
+    padding-top: 12px;
     color: #5B5B5B;
 }
-.text-top>p{
-    margin: 0;
-}
+
 .header-text-bottom{
     margin-top: 56px;
     color: #39414980;
 
 }
-.header-right{
-    position: absolute;
-    right: 218px;
-    bottom: -6.5px;
-}
+
 .header-bottom-logos{
-    margin-top: 18px;
+    display: flex;
+    padding-top: 18px;
     gap: 45px;
 }
 .help-section{
-    height: 740px;
-    margin: 0 auto;
-    margin-top: 83px;
-
+    padding-top: 83px;
 }
 .help-section>.container>.heading-biy>.heading-text>.heading{
     font-weight: 600;
@@ -121,25 +108,28 @@ nav{
     line-height: 30px;
 }
 .card-body{
+    background-color: #fff;
     display: flex;
     gap: 40px;
-    margin-top: 64px;
+    padding-top: 64px;
 }
 .card>img{
     border-radius: 20px;
 }
 .card-heading{
-    margin-top: 33px;
+    padding-top: 33px;
     font-weight: 500;
     font-size: 24px;
 }
 .card-link{
     color: #F58A07;
-    margin-top: 24px;
+    padding-top: 24px;
 }
+
+/*feature section start*/
 .features-section{
-    margin-top: 97px;
-    height: 665px;
+    padding-top: 97px;
+    padding-bottom: 96px;
     background-color: #EDF7FF;
 
 }
@@ -147,80 +137,60 @@ nav{
     display: flex;
     gap: 40px;
 }
-.features-section-heading{
-    margin-top: 96px;
-    width: 619px;
+.features-section-text h2{
+    padding-top: 96px;
     font-weight: 600;
     font-size: 36px;
     color: #0D1317;
 }
-.features-section-heading>p{
-    margin: 0;
-}
-.features-section-paragraph{
-    margin-top: 102px;
-    width: 620px;
+.features-section-text p{
+    padding-top: 102px;
+  
     font-weight: 500;
     color: #1D3444;
     font-size: 18px;
 }
-.features-section-paragraph>p{
-    margin: 0;
-}
 .features-section_features{
     display: flex;
-    margin-top: 64px;
+    padding-top: 64px;
     gap: 38px;
 }
 .feature{
-    width: 401px;
     background-color: #fff;
     border-radius: 20px;
 }
 .feature>img{
-    margin-top: 50px;
-    margin-left: 38px;
-    margin-bottom: 32px;
+    padding-top: 50px;
+    padding-left: 38px;
+    padding-bottom: 32px;
 }
 .feature>p{
-    margin-top: 0;
-    margin-bottom: 16px;
-    margin-left: 39px;
+    padding-bottom: 16px;
+    padding-left: 39px;
 }
+/*feature section end*/
 
-
-
+/*about section start*/
 .about-section{
-    height: 667px;
-    margin-top: 96px;
+    padding-top: 96px;
     background-color: #fff;
 }
 .about-section>.container{
     display: flex;
     justify-content: space-around;
+    gap: 83px;
 }
 .about-text{
-    width: 596px;
-
-}
-
-.about-section-heading>h3{
-    font-weight: 600px;
-    font-size: 48px;
-    color: #0D1317;
-    margin-top: 0;
-    letter-spacing: -0.03em;
+    padding-top: 70px;
 }
 .about-section-heading>p{
-    width: 510px;
-    font-weight: 500;
-    font-size: 18px;
-    color: #5B5B5B;
-
+    padding-top: 32px;
+    padding-right: 85px;
+    padding-bottom: 48px;
 }
 .about-section-feature{
     display: flex;
-    width: 596px;
+    gap: 26px;
 }
 .about-section-feature-logo{
     font-family: Inter, sans-serif;
@@ -232,7 +202,7 @@ nav{
     color: #F58A07;
 }
 .about-section-feature-heading{
-    margin-top: 16px;
+    padding-top: 16px;
     font-size: 24px;
     font-weight: 600;
     line-height: 26px;
@@ -240,7 +210,7 @@ nav{
     text-align: left;
 }
 .about-section-feature-pharagraph{
-    margin-top: 16px;
+    padding-top: 16px;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0em;
@@ -255,23 +225,23 @@ nav{
 }
 .about-image-bar{
     position: absolute;
-    left: 0;
     height: 667px;
     width: 153px;
     background-color: rgba(245, 138, 7, 1);
     mix-blend-mode: multiply;
     border-radius: 20px 0 0 20px;
     z-index: 4;
-    bottom: 6px;
-    
+    left: 0;
+    bottom: 6px;   
+}
+.service-section{
+    padding-top: 85px;
 }
 .service-section>.container{
-    margin-top: 85px;
-    height: 682px;
+
     background-color: #EDF7FF;
     position: relative;
     border-radius: 20px;
-
 }
 .ribbon{
     position: absolute;
@@ -316,20 +286,8 @@ nav{
     padding-top: 80px;
 
 }
-.service-text>h2{
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 56px;
-    letter-spacing: -0.03em;
-    margin-top: 0;
-}
-.service-text>p{
 
-    color: rgba(91, 91, 91, 1);
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-}
+
 .service-button{
     font-weight: 500;
     font-size: 16px;
@@ -359,8 +317,7 @@ nav{
     bottom: 6px;
 }
 .CTA-body{
-    background-color: rgba(245, 138, 7, 1);
-    margin: 0;
+    background-color: rgba(245, 138, 7, 1);                                                                                                 
     display: flex;
     height: 518px;
     align-items: stretch;
@@ -505,6 +462,7 @@ footer>.container{
     display: flex;
     justify-content: space-between;
 }
+
 .footer-section h4{
     padding-top: 32px;
     font-weight: 600;
@@ -512,7 +470,13 @@ footer>.container{
     line-height: 44px;
     letter-spacing: -0.03em;
     color: #FFF;
-
+    width: 351px;
+}
+.social-media {
+    display: flex;
+    padding-top: 33.67px;
+    gap: 20px;
+    color: #fff;
 }
 .footer-section-middle{
     display: flex;
@@ -555,6 +519,7 @@ footer>.container{
 .input-email{
     padding-top: 24px;
     padding-bottom: 16px;
+    position: relative;
 }
 .input-email>input{
     border: 0;
@@ -562,8 +527,8 @@ footer>.container{
     padding-bottom: 17px;
     border-radius: 31px;
     width: 342px;
-
 }
+
 .button{
     padding: 18px 32px;
     background-color: #F58A07;
@@ -588,6 +553,7 @@ footer>.container{
     color: #FFFFFF;
 }
 .footer-bottom-links{
+    display: flex;
     justify-content: space-evenly;
     gap: 32px;
 }
