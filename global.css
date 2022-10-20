@@ -27,6 +27,13 @@ a{
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
 }
+h1{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+}
 h2{
     color: #0D1317;
     font-weight: 600;
