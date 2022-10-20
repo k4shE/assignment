@@ -366,7 +366,7 @@ nav{
     align-items: stretch;
 }
 .CTA-left img{
-
+    height: 518px;
 }
 .CTA-right{
     padding: 128px 300px 222px 128px;
@@ -390,3 +390,216 @@ nav{
     text-transform: capitalize;
     color: #F58A07;
 }   
+.CTA-button-outside-padding{
+    padding-top: 40px;
+}
+.video{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.video>.container{
+    display: flex;
+}
+.video-left{
+    padding-top: 78px;
+}
+.video-left>h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+}
+.video-left>p{
+    padding-top: 24px;
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+.video-left-person{
+    display: flex;
+    gap: 24px;
+}
+.video-left-person-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 171%;
+    color: #063255;
+}
+.video-left-person-sub-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 171%;
+    color: #F58A07;
+}
+.video-right{
+    position: relative;
+}
+.play-icon{
+    position: absolute;
+    display: flex;
+    bottom: 40px;
+    left: 40px;
+    gap: 17px;
+}
+.play-icon img{
+    padding: 17px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 56px;
+}
+.play-icon>p{
+    padding-top: 19.5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 101.8%;
+    text-transform: capitalize;
+    color: #FFF;
+}
+.latest{
+    background-color: #DCEAF5;
+}
+.latest>.container{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.blog{
+    padding-top: 64px;
+    display: flex;
+    gap: 40px;
+}
+.blog-card{
+    border-radius: 20px;
+    background-color: #fff;
+}
+.blog-card img{
+    border-radius: 20px 20px 0 0;
+}
+.blog-card-text{
+    padding: 32px;
+}
+.blog-card-text>h3{
+    padding-bottom: 16px;
+}
+.blog-card-text>p{
+    padding-bottom: 24px;
+}
+.blog-card-text a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
+}
+footer{
+    background-color: #063255;
+    position: relative;
+}
+
+footer>.container{
+    padding-top: 80px;
+
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-section h4{
+    padding-top: 32px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.03em;
+    color: #FFF;
+
+}
+.footer-section-middle{
+    display: flex;
+    gap: 106px;
+}
+.footer-left-bar>ul>li{
+    padding-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFF;
+}
+.footer-left-bar>p{
+    padding-bottom: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFF;
+}
+.footer-right-bar p{
+    padding-bottom: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFF;
+}
+.footer-right-bar>ul>li{
+    padding-bottom: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFF;
+}
+.footer-section-right p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFF;
+}
+.input-email{
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+.input-email>input{
+    border: 0;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    border-radius: 31px;
+    width: 342px;
+
+}
+.button{
+    padding: 18px 32px;
+    background-color: #F58A07;
+    display: inline-block;
+    border-radius: 31px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 106.5%;
+    text-transform: capitalize;
+    color: #FFF;
+}
+.footer-bottom{
+    padding-top: 85px;
+    padding-bottom: 79px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer-bottom-links{
+    justify-content: space-evenly;
+    gap: 32px;
+}
+.footer-bottom-links a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFF;
+}
+.footer-shape-right {
+    position: absolute;
+    padding-top: 38px;
+    right: 0;
+    top: 0;
+}
