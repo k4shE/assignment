@@ -1,80 +1,3 @@
-nav{
-    display: flex;
-    padding-top: 15px;
-    padding-bottom: 30px;
-}
-.navigation-table{
-    display: flex;
-    justify-content: space-between;
-}
-
-.navigation-logo{
-    padding-top: 28px;
-}
-
-.navigation-link{
-    display: flex;
-    gap: 47px;
-}
-.navigation-link-body{
-    padding-top: 30px;
-    display: flex;
-    gap: 32px;
-
-}
-.navigation-link-body a{
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    text-transform: capitalize;
-    color: #394149;
-}
-.navigation-button{
-    padding: 18px 30px 17px 29px;
-    border-radius: 31px;
-    text-align: center;
-    margin-top: 16px;
-    font-weight: 600;
-    color: #f58a07;
-    background: #F58A071A;
-}
-.header>.container{
-    display: flex;
-    gap: 46px;
-}
-.header-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.header-left p{
-    font-size: 18px;
-    line-height: 30px;
-    padding-top: 24px;
-    padding-bottom: 32px;
-}
-.header-button{
-    background-color: #F58A07;
-    border-radius: 27px;
-    padding: 18px 32px 19px 32px;
-    display: inline-block;
-    color: #fff;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 106.5%;
-}
-.header-right{
-    position: relative;
-}
-.header-image-bar{
-    position: absolute;
-    height: 650px;
-    width: 180px;
-    bottom: 6px;
-    mix-blend-mode: multiply;
-    border-radius:19px 0 0 20px;
-    background-color: #F58A07;
-}
 .feature{
     padding-top: 90px;
 }
@@ -103,7 +26,10 @@ nav{
 .feature-image{
     position: relative;
 }
-.features-block{
+.feature-block-1{
+    position: absolute;
+    top: 128px;
+    left: -48px;
     width: 95px;
     height: 97px;
     position: absolute;
@@ -111,16 +37,7 @@ nav{
     mix-blend-mode: multiply;
     border-radius: 20px;
 }
-.block-1{
-    position: absolute;
-    top: 128px;
-    left: -48px;
-}
-
-.feature-padding{
-    padding-top: 128px;
-}
-.feature-right-block{
+.feature-block-2{
     position: absolute;
     width: 95px;
     height: 97px;
@@ -130,6 +47,109 @@ nav{
     top: 272px;
     right: -48px;
 }
-.block-1{
-
+.feature-block-3{
+    position: absolute;
+    width: 95px;
+    height: 97px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    top: 217px;
+    left: -48px;
+}
+.feature-block-4{
+    position: absolute;
+    width: 95px;
+    height: 97px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    bottom: 111px;
+    left: -48px;
+}
+.feature-padding{
+    padding-top: 128px;
+}
+.feature-text>ul>li{
+    font-size: 16px;
+    list-style-type: disc;
+}
+.feature-text>ul>li p{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.feature-text>ul{
+    padding-left: 20px;
+}
+.feature>:last-child{
+    padding-bottom: 128px;
+    padding-top: 166px;
+}
+.video-left-person-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 171%;
+    color: #063255;
+}
+.video-left-person-sub-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 171%;
+    color: #F58A07;
+}
+.play-icon{
+    position: absolute;
+    display: flex;
+    bottom: 40px;
+    left: 40px;
+    gap: 17px;
+}
+.play-icon img{
+    padding: 17px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 56px;
+}
+.play-icon>p{
+    padding-top: 19.5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 101.8%;
+    text-transform: capitalize;
+    color: #FFF;
+}
+.latest{
+    background-color: #DCEAF5;
+}
+.latest>.container{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.blog{
+    padding-top: 64px;
+    display: flex;
+    gap: 40px;
+}
+.blog-card{
+    border-radius: 20px;
+    background-color: #fff;
+}
+.blog-card img{
+    border-radius: 20px 20px 0 0;
+}
+.blog-card-text{
+    padding: 32px;
+}
+.blog-card-text>h3{
+    padding-bottom: 16px;
+}
+.blog-card-text>p{
+    padding-bottom: 24px;
+}
+.blog-card-text a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
 }

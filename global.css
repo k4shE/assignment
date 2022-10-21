@@ -33,6 +33,7 @@ h1{
     line-height: 72px;
     letter-spacing: -0.03em;
     color: #1D3444;
+    padding-bottom: 24px;
 }
 h2{
     color: #0D1317;
@@ -53,4 +54,9 @@ h3{
     line-height: 36px;
     letter-spacing: -0.03em;
     color: #0D1317;
+}
+.button{
+    padding: 18px 32px 19px 32px;
+    background-color: #F58A07;
+    border-radius: 27px;
 }

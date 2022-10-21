@@ -1,0 +1,17 @@
+.career-header>.container{
+    flex-direction: column;
+}
+.job{
+    display: flex;
+    justify-content: space-between;
+}
+.job-left{
+    width: 640px;
+}
+.job-right{
+    width: 300px;
+}
+.career-detail-body{
+    background-color: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+}
