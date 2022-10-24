@@ -11,14 +11,10 @@
 .job-right{
     width: 300px;
 }
-.career-detail-body{
-    background-color: rgba(193, 228, 255, 0.3);
-    border-radius: 20px;
-}
-
 .input{
     display: flex;
     gap: 24px;
+    padding-bottom: 24px;
     
 }
 .input input{
@@ -26,26 +22,40 @@
     border: 0;
     padding-top: 18px;
     padding-bottom: 17px;
+    padding-left: 32px;
     border-radius: 31px;
-    width: 342px;
+    width: 628px;
+    background: rgba(210, 218, 237, 0.17);
+}
+.opinion{
+    padding-bottom: 32px;
 }
 .opinion>input{
+    width: 100%;
     border: 0;
     padding-top: 18px;
+    padding-left: 32px;
     padding-bottom: 170px;
     border-radius: 31px;
-    width: 342px;
 
+    background: rgba(210, 218, 237, 0.17);
 }
 .career-detail{
     padding: 128px 0;
 }
+.career-detail>.container{
+    background-color: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    padding-bottom: 69px;
+    padding-top: 64px;
+    padding-left: 68px;
+    gap: 92px;
+}
 .apply{
     padding: 128px 0;
 }
-.career-detail-body table{
-    padding-top: 68px;
-    padding-left: 68px;
+.apply>.container h2{
+    padding-bottom: 51px;
 }
 .career-details-heading{
     font-family: 'Inter';
@@ -65,4 +75,7 @@
 .career-detail>.container{
     display: flex;
     justify-content: space-between;
+}
+.space{
+    width: 92px;
 }

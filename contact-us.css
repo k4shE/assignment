@@ -1,0 +1,51 @@
+.contact-header>.container{
+    display: flex;
+    gap: 99px;
+    padding-bottom: 64px;
+
+}
+.contact-header-left{
+    width: 561px;
+}
+.contact-header-left h2{
+    padding-bottom: 24px;
+}
+.contact-header-right{
+    display: flex;
+    gap: 76px;
+}
+.heading h3{
+    padding-bottom: 16px;
+}
+.contact-body{
+    padding-bottom: 128px;
+}
+.main-body{
+    display: flex;
+    padding-bottom: 32px;
+    gap: 60px;
+}
+.body-left{
+    flex-direction: row;
+}
+.input-info{
+    padding-bottom: 16px;
+}
+.input-info input{
+    border: 0;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    border-radius: 31px;
+    padding-left: 32px;
+    width: 573px;
+    background-color: rgba(210, 218, 237, 0.17);
+}
+.input-info-bottom input{
+    border: 0;
+    padding-top: 18px;
+    padding-bottom: 109px;
+    border-radius: 31px;
+    padding-left: 32px;
+    width: 573px;
+    background-color: rgba(210, 218, 237, 0.17);
+}
