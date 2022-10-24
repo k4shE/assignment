@@ -51,10 +51,16 @@
     padding-left: 68px;
     gap: 92px;
 }
+.career-details-heading{
+    padding-bottom: 40px;
+}
+.headings h4{
+    padding-bottom: 40px;
+}
 .apply{
     padding: 128px 0;
 }
-.apply>.container h2{
+.apply>.container h3{
     padding-bottom: 51px;
 }
 .career-details-heading{

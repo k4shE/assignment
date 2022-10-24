@@ -1,3 +1,7 @@
+.navigation-link-body a:nth-child(4){
+    color: #F58A07;
+}
+
 nav .container{
     flex-direction: column;
 }
@@ -15,9 +19,16 @@ footer .container{
     padding-bottom: 128px;
 }
 .header-text{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}.header-text p{
+    width: 559px;
+}
+.header-text> a .arrow{
+    position: absolute;
+    bottom: 50px;
 }
 .header-info{
     display: flex;
@@ -25,6 +36,11 @@ footer .container{
 }
 .header-image img{
     border-radius: 20px;
+    filter: grayscale(1);
+}
+.header-image img:hover{
+    filter: grayscale(0.1);
+    transition: 0.5s all;
 }
 .header-info-text{
     gap: 24px;
@@ -44,36 +60,16 @@ main a{
     padding-bottom: 128px;
 }
 .all-posts{
-    padding-top: 64px;
+    
     display: flex;
 }
 .all-posts h2{
     padding-bottom: 24px;
 }
 .card{
-    padding-top: 40px;
-    display: flex;
-    gap: 40px;
+    background-color: #EDF7FF;
+    position: relative;
 }
-.blog-card{
-    border-radius: 20px;
-    background-color: #DCEAF5;
-}
-.blog-card img{
-    border-radius: 20px 20px 0 0;
-}
-.blog-card-text{
-    padding: 32px;
-}
-.blog-card-text>h3{
-    padding-bottom: 16px;
-}
-.blog-card-text>p{
-    padding-bottom: 24px;
-}
-.blog-card-text a{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 106.5%;
-    color: #F58A07;
+.card-text>a .arrow{
+    bottom: 37px;
 }

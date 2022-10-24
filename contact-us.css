@@ -1,3 +1,7 @@
+.navigation-link-body a:nth-child(5){
+    color: #F58A07;
+}
+
 .contact-header>.container{
     display: flex;
     gap: 99px;
@@ -48,4 +52,8 @@
     padding-left: 32px;
     width: 573px;
     background-color: rgba(210, 218, 237, 0.17);
+}
+.job{background-color: rgba(193, 228, 255, 0.3;}
+.career-header{
+    padding-top: 122px;
 }

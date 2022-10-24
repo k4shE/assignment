@@ -20,7 +20,6 @@ nav{
     padding-top: 30px;
     display: flex;
     gap: 32px;
-
 }
 .navigation-link-body a{
     font-weight: 600;
@@ -29,6 +28,9 @@ nav{
     text-transform: capitalize;
     color: #394149;
 }
+.navigation-link-body a:hover{
+    color: #F58A07;
+}
 .navigation-button{
     padding: 18px 30px 17px 29px;
     border-radius: 31px;
@@ -36,7 +38,12 @@ nav{
     margin-top: 16px;
     font-weight: 600;
     color: #f58a07;
-    background: #F58A071A;
+    background-color: rgba(245, 138, 7, 0.1);
+}
+.navigation-button:hover{
+    background-color: #F58A07;
+    transition: 0.7s all;
+    color: #fff;
 }
 .header>.container{
     display: flex;
@@ -104,11 +111,17 @@ footer>.container{
     color: #FFF;
     width: 351px;
 }
-.social-media {
+.social-media{
     display: flex;
     padding-top: 33.67px;
     gap: 20px;
+}
+.social-media-icon{
     color: #fff;
+}
+.social-media-icon:hover i{
+    color: #F58A07;
+    transition: .7s all;
 }
 .footer-section-middle{
     display: flex;
@@ -157,6 +170,7 @@ footer>.container{
     border: 0;
     padding-top: 18px;
     padding-bottom: 17px;
+    padding-left: 32px;
     border-radius: 31px;
     width: 342px;
 }
@@ -171,6 +185,11 @@ footer>.container{
     line-height: 106.5%;
     text-transform: capitalize;
     color: #FFF;
+}
+.button:hover{
+    background-color: #fff;
+    color: #F58A07;
+    transition: .6s all;
 }
 .footer-bottom{
     padding-top: 85px;
@@ -195,9 +214,26 @@ footer>.container{
     line-height: 24px;
     color: #FFF;
 }
+footer a:hover{
+    color: #F58A07;
+    transition: .5s all;
+}
+.footer-shape-left{
+    position: absolute;
+    width: 53px;
+    height: 144px;
+    background-color: #F58A07;
+    left: 0;
+    bottom: 0px;
+    border-radius: 0 20px 0 0;
+
+}
 .footer-shape-right {
     position: absolute;
-    padding-top: 38px;
+    height: 287px;
+    width: 53px;
+    background-color: #F58A07;
+    top: 38px;
     right: 0;
-    top: 0;
+    border-radius: 20px 0 0 20px;
 }

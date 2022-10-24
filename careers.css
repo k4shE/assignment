@@ -1,3 +1,7 @@
+.navigation-link-body a:nth-child(2){
+    color: #F58A07;
+}
+
 nav .container{
     flex-direction: column;
 }
@@ -8,13 +12,16 @@ footer .container{
     display: flex;
 }
 .heading>.container{
-
+    padding-top: 108px;
     gap: 107px;
 }
 .heading-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.heading-text a>.button:hover{
+    background-color: rgba(245, 138, 7, 0.1);
 }
 .heading-text p, h1{
     padding-bottom: 24px;
@@ -37,51 +44,64 @@ footer .container{
     padding-bottom: 128px;
     flex-direction: column;
 }
+.careers>.container h3{
+    padding-bottom: 64px;
+}
 .career-list{
-    padding-top: 64px;
-    gap: 40px;
     display: flex;
+    gap: 40px;
+    justify-content: space-between;
 
-    flex-wrap: wrap;
+}
+.career-list-body{
+    gap: 40px;
 }
 .job-effort{
-    padding: 32px 40px;
+    padding-bottom: 40px;
+}
+.job-effort-body{
     background-color: rgba(193, 228, 255, 0.3);
     border-radius: 20px;
+    padding: 32px 100px 0 40px;
+    height: 166px;
 }
+.job-effort-body h4{
+    width: 250px;
+}
+.job-effort-body p{
+    padding-bottom: 32px;
+}
+
+.job-effort-body a{
+    padding: 0 50px 32px 0;
+    color: #F58A07;
+}
+.job-effort-body a:hover{
+    position: absolute;
+    padding: 0 0 32px 50px;
+    transition: .5s all;
+    
+}
+
 .latest{
     background-color: #DCEAF5;
 }
 .latest>.container{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    flex-direction: column;
+}
+.latest>.container input{
     flex-direction: column;
     padding-top: 96px;
     padding-bottom: 96px;
-}
-.blog{
-    padding-top: 64px;
     display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
-.blog-card{
-    border-radius: 20px;
-    background-color: #fff;
+.card-text{
+    position: relative;
 }
-.blog-card img{
-    border-radius: 20px 20px 0 0;
-}
-.blog-card-text{
-    padding: 32px;
-}
-.blog-card-text>h3{
-    padding-bottom: 16px;
-}
-.blog-card-text>p{
-    padding-bottom: 24px;
-}
-.blog-card-text a{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 106.5%;
-    color: #F58A07;
+.arrow{
+    position: absolute;
+    bottom: 37px;
 }
