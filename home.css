@@ -11,6 +11,9 @@
 }
 .heading > .container {
   display: flex;
+  position: relative;
+  padding-bottom: 148px;
+  gap: 53px;
 }
 .heading-left > h2 {
   margin: 0;
@@ -61,6 +64,11 @@
   display: flex;
   padding-top: 18px;
   gap: 45px;
+}
+
+.head-right img{
+  position: absolute;
+  bottom: 0;
 }
 
 /* heading section end */
