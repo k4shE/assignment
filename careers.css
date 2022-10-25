@@ -1,107 +1,105 @@
-.navigation-link-body a:nth-child(2){
-    color: #F58A07;
+.navigation-link-body a:nth-child(2) {
+  color: #f58a07;
+}
+nav .container {
+  flex-direction: column;
+}
+footer .container {
+  flex-direction: column;
+}
+.container {
+  display: flex;
+}
+.heading > .container {
+  padding-top: 108px;
+  gap: 107px;
+}
+.heading-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading-text a > .button:hover {
+  background-color: rgba(245, 138, 7, 0.1);
+}
+.heading-text p,
+h1 {
+  padding-bottom: 24px;
+}
+.heading-image {
+  position: relative;
+}
+.image-bar {
+  position: absolute;
+  width: 180px;
+  height: 650px;
+  background: #f58a07;
+  mix-blend-mode: multiply;
+  border-radius: 19px 0 0 20px;
+  left: 0;
+  top: 0;
+}
+.careers > .container {
+  padding-top: 127px;
+  padding-bottom: 128px;
+  flex-direction: column;
+}
+.careers > .container h3 {
+  padding-bottom: 64px;
+}
+.career-list {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+.career-list-body {
+  gap: 40px;
+}
+.job-effort {
+  padding-bottom: 40px;
+}
+.job-effort-body {
+  background-color: rgba(193, 228, 255, 0.3);
+  border-radius: 20px;
+  padding: 32px 100px 0 40px;
+  height: 166px;
+}
+.job-effort-body h4 {
+  width: 250px;
+}
+.job-effort-body p {
+  padding-bottom: 32px;
 }
 
-nav .container{
-    flex-direction: column;
+.job-effort-body a {
+  padding: 0 50px 32px 0;
+  color: #f58a07;
 }
-footer .container{
-    flex-direction: column;
-}
-.container{
-    display: flex;
-}
-.heading>.container{
-    padding-top: 108px;
-    gap: 107px;
-}
-.heading-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.heading-text a>.button:hover{
-    background-color: rgba(245, 138, 7, 0.1);
-}
-.heading-text p, h1{
-    padding-bottom: 24px;
-}
-.heading-image{
-    position: relative;
-}
-.image-bar{
-    position: absolute;
-    width: 180px;
-    height: 650px;
-    background: #F58A07;
-    mix-blend-mode: multiply;
-    border-radius: 19px 0 0 20px;
-    left: 0;
-    top: 0;
-}
-.careers>.container{
-    padding-top: 127px;
-    padding-bottom: 128px;
-    flex-direction: column;
-}
-.careers>.container h3{
-    padding-bottom: 64px;
-}
-.career-list{
-    display: flex;
-    gap: 40px;
-    justify-content: space-between;
-
-}
-.career-list-body{
-    gap: 40px;
-}
-.job-effort{
-    padding-bottom: 40px;
-}
-.job-effort-body{
-    background-color: rgba(193, 228, 255, 0.3);
-    border-radius: 20px;
-    padding: 32px 100px 0 40px;
-    height: 166px;
-}
-.job-effort-body h4{
-    width: 250px;
-}
-.job-effort-body p{
-    padding-bottom: 32px;
+.job-effort-body a:hover {
+  position: absolute;
+  padding: 0 0 32px 50px;
+  transition: 0.5s all;
 }
 
-.job-effort-body a{
-    padding: 0 50px 32px 0;
-    color: #F58A07;
+.latest {
+  background-color: #dceaf5;
 }
-.job-effort-body a:hover{
-    position: absolute;
-    padding: 0 0 32px 50px;
-    transition: .5s all;
-    
+.latest > .container {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  flex-direction: column;
 }
-
-.latest{
-    background-color: #DCEAF5;
+.latest > .container input {
+  flex-direction: column;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  display: flex;
+  flex-direction: column;
 }
-.latest>.container{
-    padding-top: 96px;
-    padding-bottom: 96px;
-    flex-direction: column;
+.card-text {
+  position: relative;
 }
-.latest>.container input{
-    flex-direction: column;
-    padding-top: 96px;
-    padding-bottom: 96px;
-    display: flex;
-    flex-direction: column;
-}
-.card-text{
-    position: relative;
-}
-.arrow{
-    position: absolute;
-    bottom: 37px;
+.arrow {
+  position: absolute;
+  bottom: 37px;
 }

@@ -1,75 +1,79 @@
-.navigation-link-body a:nth-child(4){
-    color: #F58A07;
+.navigation-link-body a:nth-child(4) {
+  color: #f58a07;
 }
 
-nav .container{
-    flex-direction: column;
+nav .container {
+  flex-direction: column;
 }
-footer .container{
-    flex-direction: column;
+footer .container {
+  flex-direction: column;
 }
-.container{
-    display: flex;
+.container {
+  display: flex;
 }
-.header{
-    background-color: #DCEAF5;
+.header {
+  background-color: #dceaf5;
 }
-.header>.container{
-    padding-top: 128px;
-    padding-bottom: 128px;
+.header > .container {
+  padding-top: 128px;
+  padding-bottom: 128px;
 }
-.header-text{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}.header-text p{
-    width: 559px;
+.header-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.header-text> a .arrow{
-    position: absolute;
-    bottom: 50px;
+.header-text p {
+  width: 559px;
 }
-.header-info{
-    display: flex;
-    gap: 8px;
+.header-text a {
+  position: absolute;
+  bottom: 30px;
+  padding: 0 10px 0 0;
 }
-.header-image img{
-    border-radius: 20px;
-    filter: grayscale(1);
+.header-text a:hover {
+  padding: 0 0 0 10px;
+  transition: 0.7s all;
 }
-.header-image img:hover{
-    filter: grayscale(0.1);
-    transition: 0.5s all;
+.header-info {
+  display: flex;
+  gap: 8px;
 }
-.header-info-text{
-    gap: 24px;
+.header-image img {
+  border-radius: 20px;
+  filter: grayscale(1);
 }
-main a{
-    padding-top: 24px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 106.5%;
-    color: #F58A07;
+.header-image img:hover {
+  filter: grayscale(0.1);
+  transition: 0.5s all;
+}
+.header-info-text {
+  gap: 24px;
+}
+main a {
+  padding-top: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 106.5%;
+  color: #f58a07;
+}
 
+.all-posts > .container {
+  flex-direction: column;
+  padding-top: 128px;
+  padding-bottom: 128px;
 }
-
-.all-posts>.container{
-    flex-direction: column;
-    padding-top: 128px;
-    padding-bottom: 128px;
+.all-posts {
+  display: flex;
 }
-.all-posts{
-    
-    display: flex;
+.all-posts h2 {
+  padding-bottom: 24px;
 }
-.all-posts h2{
-    padding-bottom: 24px;
+.card {
+  background-color: #edf7ff;
+  position: relative;
 }
-.card{
-    background-color: #EDF7FF;
-    position: relative;
-}
-.card-text>a .arrow{
-    bottom: 37px;
+.card-text > a .arrow {
+  bottom: 37px;
 }

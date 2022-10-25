@@ -1,87 +1,90 @@
-.career-header>.container{
-    flex-direction: column;
+.career-header > .container {
+  flex-direction: column;
 }
-.job{
-    display: flex;
-    justify-content: space-between;
+.job {
+  display: flex;
+  justify-content: space-between;
 }
-.job-left{
-    width: 640px;
+.job-left {
+  width: 640px;
 }
-.job-right{
-    width: 300px;
+.job-right {
+  width: 300px;
 }
-.input{
-    display: flex;
-    gap: 24px;
-    padding-bottom: 24px;
-    
+.input {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 24px;
+  background-color: rgba(210, 218, 237, 0.17);
 }
-.input input{
-    width: 50%;
-    border: 0;
-    padding-top: 18px;
-    padding-bottom: 17px;
-    padding-left: 32px;
-    border-radius: 31px;
-    width: 628px;
-    background: rgba(210, 218, 237, 0.17);
+.input input {
+  width: 50%;
+  border: 0;
+  padding-top: 18px;
+  padding-bottom: 17px;
+  padding-left: 32px;
+  border-radius: 31px;
+  width: 628px;
 }
-.opinion{
-    padding-bottom: 32px;
+.opinion {
+  padding-bottom: 32px;
+  background-color: rgba(210, 218, 237, 0.17);
 }
-.opinion>input{
-    width: 100%;
-    border: 0;
-    padding-top: 18px;
-    padding-left: 32px;
-    padding-bottom: 170px;
-    border-radius: 31px;
+.opinion > input {
+  width: 100%;
+  border: 0;
+  padding-top: 18px;
+  padding-left: 32px;
+  padding-bottom: 170px;
+  border-radius: 31px;
 
-    background: rgba(210, 218, 237, 0.17);
+  background: rgba(210, 218, 237, 0.17);
 }
-.career-detail{
-    padding: 128px 0;
+.career-detail {
+  padding: 128px 0;
 }
-.career-detail>.container{
-    background-color: rgba(193, 228, 255, 0.3);
-    border-radius: 20px;
-    padding-bottom: 69px;
-    padding-top: 64px;
-    padding-left: 68px;
-    gap: 92px;
+.career-detail > .container {
+  background-color: rgba(193, 228, 255, 0.3);
+  border-radius: 20px;
+  padding-bottom: 69px;
+  padding-top: 64px;
+  padding-left: 68px;
+  gap: 92px;
 }
-.career-details-heading{
-    padding-bottom: 40px;
+.career-details-heading {
+  padding-bottom: 40px;
 }
-.headings h4{
-    padding-bottom: 40px;
+.headings h4 {
+  padding-bottom: 40px;
 }
-.apply{
-    padding: 128px 0;
+.apply {
+  padding-bottom: 128px;
 }
-.apply>.container h3{
-    padding-bottom: 51px;
+.apply > .container h3 {
+  padding-bottom: 51px;
 }
-.career-details-heading{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 108.5%;
-    color: #F58A07;
-    }
-.career-details-sub-heading{
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
-    letter-spacing: -0.03em;
-    color: #0D1317;
+.career-details-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 108.5%;
+  color: #f58a07;
 }
-.career-detail>.container{
-    display: flex;
-    justify-content: space-between;
+.career-details-sub-heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #0d1317;
 }
-.space{
-    width: 92px;
+.career-detail > .container {
+  display: flex;
+  justify-content: space-between;
+}
+.space {
+  width: 92px;
+}
+.career-header {
+  padding-top: 122px;
 }

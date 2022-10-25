@@ -1,25 +1,25 @@
-.inner-container{
-    margin: 0 auto;
-    width: 752px;
-    padding: 128px 0;
+.inner-container {
+  margin: 0 auto;
+  width: 752px;
+  padding: 128px 0;
 }
-.blog-post img{
-    border-radius: 20px;
+.blog-post img {
+  border-radius: 20px;
 }
-.header-info{
-    display: flex;
-    gap: 8px;
+.header-info {
+  display: flex;
+  gap: 8px;
 }
-.header-info-text{
-    padding-right:  24px;
+.header-info-text {
+  padding-right: 24px;
 }
-h2{
-    padding-bottom: 32px;
+h2 {
+  padding-bottom: 32px;
 }
-p{
-    padding-bottom: 24px;
+p {
+  padding-bottom: 24px;
 }
-h3{
-    padding-top: 48px;
-    padding-bottom: 24px;
+h3 {
+  padding-top: 48px;
+  padding-bottom: 24px;
 }
